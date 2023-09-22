@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+form input {
+    font-size: 16px;
+    padding: 8px 5px;
+    border: 1px dotted rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: gray;
+    margin: 2px solid black;
+    padding: 3px 0;
+}
