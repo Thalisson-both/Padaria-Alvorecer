@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #adadad;
 }
 .container{
     max-width: 800px;
@@ -32,11 +32,21 @@ form input {
 }
 
 button {
-    margin-top: 20px;
+    margin: 20px 0px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
     background-color: gray;
     margin: 2px solid black;
     padding: 3px 0;
+    
+}
+
+#folha{
+    background-color: #fff;
+}
+.folhaImprimir{
+    text-align: start;
+    margin-top: 12px;
+    justify-content: space-between;
 }

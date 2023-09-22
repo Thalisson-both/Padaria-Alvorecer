@@ -14,19 +14,30 @@
             <h1>Emissão de recibo de dias trabalhados</h1>
         </header>
         <section id="formulário">
-            <form>
+            <form id="calculo">
                 <label for="">Nome completo:</label>
-                <input type="text" placeholder="Digite o nome do funcionário" required>
+                <input type="text" id="nome" placeholder="Digite o nome do funcionário" required>
                 <label for="">CPF:</label>
-                <input type="number" placeholder="Digite o CPF" required>
+                <input type="number" id="cpf" placeholder="Digite o CPF" required>
                 <label for="">Função :</label>
-                <input type="text" placeholder="Digite a Função" required>
+                <input type="text" id="funcao" placeholder="Digite a Função" required>
                 <label for="">Salário :</label>
-                <input type="number" placeholder="Digite o valor do salário mensal" required min="0">
+                <input type="number" id="salario" placeholder="Digite o valor do salário mensal" required min="0">
                 <label for="">Dias trabalhados :</label>
-                <input type="number" placeholder="Digite a quantidade de dias trabalhados" required min="0">
+                <input type="number" id="diasTrabalhados"placeholder="Digite a quantidade de dias trabalhados" required min="0">
                 <button type="submit">Gerar</button>
             </form>
+        </section>
+        <section id="folha"> <!--Adicionado esses valores para fins de edição, texto será incorporado atraves de JavaScript-->
+            <h2>Recibo</h2>
+            <div class="folhaImprimir">
+                <p>Funcionário:</p>
+                <p>CPF:</p>
+                <p>Função:</p>
+                <p>Salário bruto</p>
+                <p>Dias trabalhados</p>
+                <p>Valor liquido:</p>
+            </div>
         </section>
         <script src="./assets/js/folha-pagamento.js"></script>
     </div>
