@@ -29,14 +29,12 @@
             </form>
         </section>
         <section id="folha"> <!--Adicionado esses valores para fins de edição, texto será incorporado atraves de JavaScript-->
-            <h2>Recibo</h2>
-            <div class="folhaImprimir">
-                <p>Funcionário:</p>
-                <p>CPF:</p>
-                <p>Função:</p>
-                <p>Salário bruto</p>
-                <p>Dias trabalhados</p>
-                <p>Valor liquido:</p>
+            <div class="folhaImprimir" id="recibo">
+                <h2>Recibo</h2>
+                <p>Eu ${} inscrito no cpf n° ${}, declaro ter recebido a quantia de ${} referente a ${} dias trabalhados exercendo a função de ${}.</p>
+                <p>BH, ___/___/_____<br>
+                __________________________<br>
+                Assinatura</p>
             </div>
         </section>
         <script src="./assets/js/folha-pagamento.js"></script>
